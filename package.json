@@ -1,0 +1,19 @@
+{
+  "name": "presentation-benefits-of-r3f",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "mdx-deck deck.mdx",
+    "build": "mdx-deck build deck.mdx",
+    "pdf": "mdx-deck pdf deck.mdx",
+    "image": "mdx-deck screenshot deck.mdx",
+    "help": "mdx-deck"
+  },
+  "author": "Michael Hutchings",
+  "license": "ISC",
+  "devDependencies": {
+    "mdx-deck": "^4.0.0"
+  },
+  "dependencies": {
+    "code-surfer": "^3.1.1"
+  }
+}

@@ -1,0 +1,100 @@
+import { Appear, Head, FullScreenCode, Invert, Split, prism, future } from 'mdx-deck'
+
+import { CodeSurfer } from "code-surfer"
+import { nightOwl } from "@code-surfer/themes"
+
+export const theme = nightOwl
+
+<Head>
+  <title>Making 3d things easily on the web with react-three fiber</title>
+  <meta itemprop="name" content="Making 3d things easily with react-three fiber" />
+  <meta property="article:published_time" content="2021-06-28T00:00:00+01:00" />
+  <meta property="article:modified_time" content="2021-06-28T00:00:00+01:00" />
+</Head>
+
+# Hello
+
+---
+
+## Code Surfer
+
+<CodeSurfer>
+
+```js
+const code = {
+  example: [
+    'one',
+    'two'
+  ]
+}
+```
+
+</CodeSurfer>
+
+---
+
+## Edit this file
+
+To create your presentation
+
+```notes
+- Create speaker notes in fenced code blocks
+```
+
+---
+
+<https://github.com/jxnblk/mdx-deck>
+
+
+---
+
+## Text appears when you activate next slide
+
+
+<ul>
+  <Appear>
+    <li>One</li>
+    <li>Two</li>
+    <li>Three</li>
+  </Appear>
+</ul>
+
+Go backwards to hide text again
+
+---
+
+<Invert>
+
+## Inverted BG
+
+
+</Invert>
+
+---
+
+<Split>
+
+```js
+const code = {
+  example: [
+    'one',
+    'two'
+  ]
+}
+```
+
+## Split layout
+
+</Split>
+
+---
+
+<FullScreenCode>
+
+```jsx
+<Button>Beep</Button>
+```
+
+</FullScreenCode>
+
+---
